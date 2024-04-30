@@ -30,7 +30,7 @@ const defaultMeta = {
   siteName: "Be Visible",
   description: "Be Visible",
   url: `${SITE_URL}`,
-  image: `${SITE_URL}/favicon.ico`,
+  image: `${SITE_URL}/clip.png`,
   type: "website",
   robots: "follow, index",
 };
@@ -105,15 +105,15 @@ export default function Seo(props: SeoProps) {
       <meta name="author" content="Daccred" />
 
       {/* PWA Config */}
-      <meta name="theme-color" content="#011627" />
-      <meta name="apple-mobile-web-app-status-bar-style" content="#011627" />
+      <meta name="theme-color" content="#9F1D20" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="#9F1D20" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="application-name" content={meta.title} />
       <meta name="apple-mobile-web-app-title" content={meta.title} />
       <meta name="format-detection" content="telephone=no" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="msapplication-config" content="/icons/browserconfig.xml" />
-      <meta name="msapplication-TileColor" content="#011627" />
+      <meta name="msapplication-TileColor" content="#9F1D20" />
       <meta name="msapplication-tap-highlight" content="no" />
 
       {/* Schema.org tags */}
@@ -160,12 +160,12 @@ export default function Seo(props: SeoProps) {
       {favicons.map((linkProps) => (
         <link key={linkProps.href} {...linkProps} />
       ))}
-      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta name="msapplication-TileColor" content="#9F1D20" />
       <meta
         name="msapplication-TileImage"
         content="/favicon/ms-icon-144x144.png"
       />
-      <meta name="theme-color" content="#ffffff" />
+      <meta name="theme-color" content="#9F1D20" />
     </Head>
   );
 }
