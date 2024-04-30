@@ -9,7 +9,8 @@ import {
   useForm,
 } from "@/components/forms";
 import FormDateInput from "@/components/forms/components/FormDateInput";
-import { Stack, HStack, Button } from "@chakra-ui/react";
+import { Stack, HStack, Button, ThemeProvider } from "@chakra-ui/react";
+import { theme } from "@/theme";
 
 const formValidationSchema = z.object({
   question: z.string(),
@@ -31,7 +32,7 @@ export default function Page() {
   });
 
   return renderForm(
-    <>
+    <ThemeProvider theme={theme}>
       <Meta />
 
       <Stack spacing={6} mt={12}>
@@ -64,6 +65,6 @@ export default function Page() {
           Submit
         </Button>
       </Stack>
-    </>,
+    </ThemeProvider>,
   );
 }

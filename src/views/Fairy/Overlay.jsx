@@ -44,9 +44,10 @@ export function Overlay() {
           style={{
             margin: 0,
             padding: 0,
-            fontSize: "15em",
+            fontSize: "17em",
             fontWeight: 500,
-            letterSpacing: "-0.05em",
+            lineHeight: "15rem",
+            letterSpacing: "-0.025em",
           }}
         >
           fae-risi
