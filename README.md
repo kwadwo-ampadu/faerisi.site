@@ -1,19 +1,4 @@
-# -Emissary.rfc
-
-```
-Inspiration websites
-https://0x.org/
-```
-
-![image](./public/workflow.png)
-
-Emissary (ERC20) ApproveFor in Web2 &amp; Web3 &lt;
-
-- Next-PWA, ChakraUI Nextjs, Nativebase React Native, Nativebase v3 is heavily inspired by Chakra
-
-This is an app bootstrapped according to the [init.tips](https://init.tips) stack, also known as the T3-Stack.
-
-## What's next? How do I make an app with this?
+# What's next? How do I make an app with this?
 
 We try to keep this project as simple as possible, so you can start with the most basic configuration and then move on to more advanced configuration.
 
