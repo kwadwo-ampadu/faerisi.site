@@ -14,7 +14,7 @@ export function Fairy() {
 function Stars(props) {
   const ref = useRef();
   const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(7500), { radius: 0.31415 }),
+    random.inSphere(new Float32Array(7500), { radius: 0.41415 }),
   );
   useFrame((_state, delta) => {
     ref.current.rotation.x -= delta / 10;

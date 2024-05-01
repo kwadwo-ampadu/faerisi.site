@@ -46,6 +46,7 @@ a {
 
 svg {
     fill: #ddd;
+    -webkit-text-fill-color: transparent;
 }
 
 h1 {

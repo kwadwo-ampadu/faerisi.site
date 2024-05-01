@@ -1,3 +1,6 @@
+// import LogoComponent from "@/components/core/logo";
+import LogoGradientComponent from "@/components/core/logo-gradient";
+
 export function Overlay() {
   return (
     <div
@@ -37,7 +40,9 @@ export function Overlay() {
             letterSpacing: "-0.05em",
           }}
         >
-          Faerisi
+          {/* Faerisi */}
+          {/* <LogoComponent /> */}
+          <LogoGradientComponent />
         </h1>
         <h1
           className="show-md big-shoulders-text-normal"
